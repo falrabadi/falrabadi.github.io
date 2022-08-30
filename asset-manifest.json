@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.56487add.css",
+    "main.js": "/static/js/main.cb6681aa.js",
+    "static/media/FadiAlrabadiResume.pdf": "/static/media/FadiAlrabadiResume.a4f83d6bb387b2045a32.pdf",
+    "static/media/logo.png": "/static/media/logo.6511a2e11791e682bd00.png",
+    "index.html": "/index.html",
+    "main.56487add.css.map": "/static/css/main.56487add.css.map",
+    "main.cb6681aa.js.map": "/static/js/main.cb6681aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56487add.css",
+    "static/js/main.cb6681aa.js"
+  ]
+}
