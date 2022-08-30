@@ -10,7 +10,7 @@ function Home() {
             <Row>
                 <Col md={7} className="home-header">
                 <h1 style={{ paddingBottom: 15 }} className="heading">
-                    Welcome!{" "}
+                    Welcome! HELOOLDSOGSLDG{" "}
                     <span className="wave" role="img" aria-labelledby="wave">
                         😊
                     </span>
