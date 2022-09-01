@@ -1,4 +1,5 @@
 import React from "react";
+import Particle from "./Particle.js";
 import { Container, Row, Col } from "react-bootstrap";
 
 function Home() {
@@ -6,11 +7,12 @@ function Home() {
     <div className="home-body">
         <section>
         <Container fluid className="home-section" id="home">
+            <Particle />
             <Container className="home-content">
             <Row>
                 <Col md={7} className="home-header">
                 <h1 style={{ paddingBottom: 15 }} className="heading">
-                    Welcome! HELOOLDSOGSLDG{" "}
+                    Welcome!{" "}
                     <span className="wave" role="img" aria-labelledby="wave">
                         😊
                     </span>

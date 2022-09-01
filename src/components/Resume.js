@@ -5,6 +5,8 @@ import pdf from "../Assets/FadiAlrabadiResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import Particle from "./Particle.js";
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
@@ -20,6 +22,7 @@ function ResumeNew() {
   return (
     <div className="resume-body">
       <Container fluid className="resume-section">
+        <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
