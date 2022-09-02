@@ -5,9 +5,8 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+import { GoMarkGithub } from "react-icons/go";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -93,11 +92,11 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/falrabadi/fadirabadi"
+                href="https://github.com/falrabadi/falrabadi.github.io"
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.5em" }} />{" "}
+                <GoMarkGithub style={{ fontSize: "1.5em" }}/>{" "}
               </Button>
             </Nav.Item>
           </Nav>

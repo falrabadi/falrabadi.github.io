@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
+import Preloader from "./components/Pre";
 import {
   BrowserRouter as Router,
   Route,
@@ -14,6 +15,7 @@ import {
 import "./styles.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Particles from "./components/Particle-config";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -27,8 +29,11 @@ function App() {
   }, []);
 
   return (
+    <Router>
+        <Preloader load={load} />
         <div className="App" id={load ? "no-scroll" : "scroll"}>
             <Navbar />
+            <Particles />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/project" element={<Projects />} />
@@ -37,7 +42,7 @@ function App() {
                 <Route path="*" element={<Navigate to="/"/>} />
             </Routes>
         </div>
-      
+    </Router>
   );
 }
 
