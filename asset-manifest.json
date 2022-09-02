@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec0544c3.css",
-    "main.js": "/static/js/main.901ad864.js",
+    "main.css": "/static/css/main.52342e80.css",
+    "main.js": "/static/js/main.74ebecf1.js",
+    "static/media/pre.png": "/static/media/pre.4022cc9808ed599a623b.png",
     "static/media/FadiAlrabadiResume.pdf": "/static/media/FadiAlrabadiResume.16555407532f9b38af9d.pdf",
     "static/media/logo.png": "/static/media/logo.6511a2e11791e682bd00.png",
     "index.html": "/index.html",
-    "main.ec0544c3.css.map": "/static/css/main.ec0544c3.css.map",
-    "main.901ad864.js.map": "/static/js/main.901ad864.js.map"
+    "main.52342e80.css.map": "/static/css/main.52342e80.css.map",
+    "main.74ebecf1.js.map": "/static/js/main.74ebecf1.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec0544c3.css",
-    "static/js/main.901ad864.js"
+    "static/css/main.52342e80.css",
+    "static/js/main.74ebecf1.js"
   ]
 }
