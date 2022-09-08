@@ -29,9 +29,9 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Preloader load={load} />
-        <div className="App" id={load ? "no-scroll" : "scroll"}>
+        
             <Navbar />
             <Particles />
             <Routes>
@@ -41,8 +41,7 @@ function App() {
                 <Route path="/resume" element={<Resume />} />
                 <Route path="*" element={<Navigate to="/"/>} />
             </Routes>
-        </div>
-    </Router>
+    </div>
   );
 }
 

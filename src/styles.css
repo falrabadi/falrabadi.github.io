@@ -368,7 +368,7 @@
     display: table !important;
     box-shadow: 4px 5px 4px 3px #213b3b !important;
     overflow: hidden !important;
-    transition: all 0.4s ease 0s !important;
+    transition: all 0.2s ease 0s !important;
   }
   
   @media (max-width: 767px) {
@@ -381,10 +381,7 @@
     transform: scale(1.05) !important;
     overflow: hidden !important;
     border: 2.2px solid #69bbbb !important;
-  }
-  .tech-icon-images {
-    padding: 20px !important;
-    line-height: 1.6 !important;
+    background-color: #213b3b;
   }
   
   .quote-card-view {
