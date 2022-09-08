@@ -11,8 +11,7 @@
 ## Features 📋
 ⚡️ Fully Responsive, built with React.\
 ⚡️ CI/CD pipeline through Github Actions. \
-⚡️ Typing animation using `Typed.js`.\
-⚡️ Highly customizable with Tailwind CSS.
+⚡️ Typing animation using `Typewriter`.\
 
 ## Run Locally 🏃
 
@@ -51,12 +50,13 @@ Start the development server
 ✔️ Home \
 ✔️ About \
 ✔️ Projects \
-✔️ Contact 
+✔️ Resume
 
 ## Tech Stack 🛠️
 * _Node.js_
 * _React.js_
 * _Express.js_
 * _CSS3_
+* _Bootstrap_
 * _Github Pages_
 * _Github Actions (CI/CD)_
