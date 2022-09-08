@@ -69,34 +69,34 @@ function About() {
             <strong className="cyan">Professional Skillset</strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tech-icons" title="C">
                 <SiC />
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tech-icons" title="C++">
                 <SiCplusplus />
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tech-icons" title="Javascript">
                 <DiJavascript1 />
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tech-icons" title="Node.js">
                 <DiNodejs />
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tech-icons" title="React">
                 <DiReact />
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tech-icons" title="Next.js">
                 <SiNextdotjs />
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tech-icons" title="Github">
                 <SiGithub />
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tech-icons" title="Firebase">
                 <SiFirebase />
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tech-icons" title="Python">
                 <DiPython />
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tech-icons" title="MySQL">
                 <SiMysql />
             </Col>
         </Row>
