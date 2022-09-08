@@ -1,6 +1,6 @@
 <h2 align="center">
   Fadi Alrabadi's Portfolio<br/>
-  <a href="falrabadi.github.io" target="_blank">falrabadi.github.io</a>
+  <a href="https://falrabadi.github.io/" target="_blank">falrabadi.github.io</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/mockup.png" />
