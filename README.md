@@ -19,7 +19,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/ramrabadi/ramrabadi.github.io
+  git clone https://github.com/falrabadi/falrabadi.github.io
 ```
 
 Go to the project directory
@@ -31,13 +31,13 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  yarn
+  npm install
 ```
 
 Start the development server 
 
 ```bash
-  npm run dev
+  npm start
 ```
 
 ## Deployment 📦
@@ -55,7 +55,8 @@ Start the development server
 
 ## Tech Stack 🛠️
 * _Node.js_
-* _Next.js (React Framework)_
-* _Tailwind CSS_
+* _React.js_
+* _Express.js_
+* _CSS3_
 * _Github Pages_
 * _Github Actions (CI/CD)_
