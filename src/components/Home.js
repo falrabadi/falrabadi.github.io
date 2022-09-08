@@ -58,8 +58,8 @@ function Home() {
             <Container>
                 <Row>
                     <Col md={8} className="home-about-description">
-                        <h1 style={{ fontSize: "2.6em" }}>
-                            Allow me to introduce myself
+                        <h1  style={{ fontSize: "2.6em" }}>
+                            <strong className="cyan"> ALLOW ME TO INTRODUCE MYSELF</strong>
                         </h1>
                         <p className="home-about-body">
                             I fell in love with programming ever since I was little. I used to make small programs to help me while I played games and I really enjoyed it.

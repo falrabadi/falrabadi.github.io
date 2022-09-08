@@ -2,6 +2,20 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Card from "react-bootstrap/card";
 import { AiFillCaretRight } from "react-icons/ai";
+import {
+  DiJavascript1,
+  DiReact,
+  DiNodejs,
+  DiPython,
+} from "react-icons/di";
+import {
+  SiFirebase,
+  SiNextdotjs,
+  SiC,
+  SiCplusplus,
+  SiMysql,
+  SiGithub,
+} from "react-icons/si";
 
 function About() {
   return (
@@ -16,8 +30,8 @@ function About() {
                 paddingBottom: "50px",
                 }}
             >
-            <h1 className="cyan" style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              GETTING TO KNOW ME
+            <h1  style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              <strong className="cyan">GETTING TO KNOW ME</strong>
             </h1>
             </Col>
             <Card className="quote-card-view">
@@ -52,8 +66,40 @@ function About() {
             </Col>
         </Row>
         <h1 className="project-heading">
-            Professional <strong className="purple">Skillset </strong>
+            <strong className="cyan">Professional Skillset</strong>
         </h1>
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiC />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiCplusplus />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiJavascript1 />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiNodejs />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiReact />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiNextdotjs />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiGithub />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiFirebase />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiPython />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiMysql />
+            </Col>
+        </Row>
       </Container>
     </Container>
   );

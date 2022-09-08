@@ -348,8 +348,12 @@
     position: relative !important;
     padding-top: 150px !important;
     padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
     color: white !important;
+  }
+
+  .project-heading {
+    color: white !important;
+    padding-bottom: 15px !important;
   }
   
   .tech-icons {
@@ -357,12 +361,12 @@
     margin: 15px !important;
     padding: 10px !important;
     opacity: 0.93 !important;
-    border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+    border: 1.7px solid #69bbbb !important;
     vertical-align: middle !important;
     text-align: center !important;
     border-radius: 5px !important;
     display: table !important;
-    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+    box-shadow: 4px 5px 4px 3px #213b3b !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
   }
@@ -376,7 +380,7 @@
   .tech-icons:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+    border: 2.2px solid #69bbbb !important;
   }
   .tech-icon-images {
     padding: 20px !important;
@@ -387,6 +391,7 @@
     border: none !important;
     color: white !important;
     background-color: transparent !important;
+    padding-bottom: 0px;
   }
   
   .about-activity {
