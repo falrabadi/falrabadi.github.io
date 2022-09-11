@@ -11,7 +11,7 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
-//import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./components/ScrollToTop";
 import "./styles.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -29,10 +29,11 @@ function App() {
   }, []);
 
   return (
-    <div className="App" id={load ? "no-scroll" : "scroll"}>
+    <Router>
         <Preloader load={load} />
-        
+        <div className="App" id={load ? "no-scroll" : "scroll"}>
             <Navbar />
+            <ScrollToTop />
             <Particles />
             <Routes>
                 <Route path="/" element={<Home />} />
@@ -41,7 +42,9 @@ function App() {
                 <Route path="/resume" element={<Resume />} />
                 <Route path="*" element={<Navigate to="/"/>} />
             </Routes>
-    </div>
+        </div>
+    </Router>
+    
   );
 }
 
