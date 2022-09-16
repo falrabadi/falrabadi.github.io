@@ -20,6 +20,7 @@ import Particles from "./components/Particle-config";
 
 
 const TRACKING_ID = "UA-241452739-1";
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 ReactGA.initialize(TRACKING_ID);
 
@@ -32,10 +33,6 @@ function App() {
     }, 1200);
 
     return () => clearTimeout(timer);
-  }, []);
-
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   return (
