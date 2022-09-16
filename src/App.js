@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ReactGA from 'react-ga';
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -17,6 +18,11 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "./components/Particle-config";
 
+
+const TRACKING_ID = "UA-241452739-1";
+
+ReactGA.initialize(TRACKING_ID);
+
 function App() {
   const [load, upadateLoad] = useState(true);
 
@@ -26,6 +32,10 @@ function App() {
     }, 1200);
 
     return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   return (
