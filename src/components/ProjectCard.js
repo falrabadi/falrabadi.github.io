@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
+import { Card } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 //import { CgWebsite } from "react-icons/cg"; No deployed projects yet.
 import { BsGithub } from "react-icons/bs";

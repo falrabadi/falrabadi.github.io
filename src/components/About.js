@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Card from "react-bootstrap/card";
+import { Card } from "react-bootstrap";
 import { AiFillCaretRight } from "react-icons/ai";
 import {
     DiJavascript1,

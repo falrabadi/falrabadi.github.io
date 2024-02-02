@@ -5,8 +5,9 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { GoMarkGithub } from "react-icons/go";
+//import { GoMarkGithub } from "react-icons/go";
 import {
+    AiFillGithub,
     AiOutlineHome,
     AiOutlineFundProjectionScreen,
     AiOutlineUser,
@@ -97,7 +98,7 @@ function NavBar() {
                                 target="_blank"
                                 className="fork-btn-inner"
                             >
-                                <GoMarkGithub style={{ fontSize: "1.5em" }} />{" "}
+                                <AiFillGithub style={{ fontSize: "1.5em" }} />{" "}
                             </Button>
                         </Nav.Item>
                     </Nav>
